@@ -59,4 +59,9 @@ addTask() {
 this.isTaskAdded = true;
 }
 
+cancelAddTask() {
+
+  this.isTaskAdded = false;
+}
+
 }
